@@ -16,10 +16,13 @@
       "email": "tony@twma.pro"
     }
   ],
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "require": {
     "silverstripe/framework": ">=4",
     "silverstripe/cms": ">=4"
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "extra": {
+      "installer-name": "silverstripe-font-awesome",
+  }
 }
