@@ -49,7 +49,7 @@ class Blabla extends ... {
 
 Then simple include in the template where you want the icon placed
 ```html
-    <i class="fa $Icon"></i>  
+    <i class="$Icon"></i>  
 ```
 
 The controller extension should make sure you've got access to the icons so you don't need to double up the CSS file. 
