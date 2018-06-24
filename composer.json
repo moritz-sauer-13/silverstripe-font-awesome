@@ -1,28 +1,25 @@
 {
-  "name": "a2nt/silverstripe-font-awesome",
-  "description": "A simple form field for selecting font-awesome classes in the CMS.",
-  "keywords": [
-    "font-awesome",
-    "silverstripe"
-  ],
-  "license": "BSD-3-Clause",
-  "authors": [
-    {
-      "name": "Chris Turner",
-      "email": "chris.turner@minedu.govt.nz"
+    "name": "a2nt/silverstripe-font-awesome",
+    "description": "A simple form field for selecting font-awesome classes in the CMS.",
+    "keywords": [
+        "font-awesome",
+        "silverstripe"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Chris Turner",
+        "email": "chris.turner@minedu.govt.nz"
+    }, {
+        "name": "Tony Air",
+        "email": "tony@twma.pro"
+    }],
+    "type": "silverstripe-vendormodule",
+    "require": {
+        "silverstripe/framework": ">=4",
+        "silverstripe/cms": ">=4"
     },
-    {
-      "name": "Tony Air",
-      "email": "tony@twma.pro"
+    "minimum-stability": "dev",
+    "extra": {
+        "installer-name": "silverstripe-font-awesome",
     }
-  ],
-  "type": "silverstripe-vendormodule",
-  "require": {
-    "silverstripe/framework": ">=4",
-    "silverstripe/cms": ">=4"
-  },
-  "minimum-stability": "dev",
-  "extra": {
-      "installer-name": "silverstripe-font-awesome",
-  }
 }
