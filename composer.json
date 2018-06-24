@@ -20,6 +20,6 @@
     },
     "minimum-stability": "dev",
     "extra": {
-        "installer-name": "silverstripe-font-awesome",
+        "installer-name": "silverstripe-font-awesome"
     }
 }
