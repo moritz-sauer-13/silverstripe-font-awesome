@@ -2,16 +2,18 @@
 Provides a field to easily pick font-awesome icons
 
 ## Features
-* Easily pick icons to be used anywhere in the frontend
+* Easily pick icons to be used anywhere in the backend
 * Can filter on icon name
+
+## Requirements
+SilverStripe 4+
 
 ## Installation
 
 ### Composer
-Make sure you're not double loading the css/fonts with a theme.
 
 Ideally composer will be used to install this module. 
-```composer require "moe/font-awesome:@stable"```
+```composer require "a2nt/silverstripe-font-awesome:@dev-master"```
 
 ## Screen shots
 
@@ -25,6 +27,9 @@ Ideally composer will be used to install this module.
 A basic working example, and the following to any class you want the field on; 
 
 ```php
+use SilverStripe\FontAwesome\FontAwesomeField;
+
+class Blabla extends ... {
     private static $db = array(
         'Icon' => 'Varchar(255)',
     );
@@ -39,6 +44,7 @@ A basic working example, and the following to any class you want the field on;
 
         return $fields;
     }
+}
 ```
 
 Then simple include in the template where you want the icon placed
@@ -52,4 +58,4 @@ The controller extension should make sure you've got access to the icons so you 
 Got you covered, checkout [color-swabs](https://github.com/peavers/silverstripe-color-swabs)!
 
 ## Libraries used/modified
-* Font Awesome 4.7
+* Font Awesome > 5
