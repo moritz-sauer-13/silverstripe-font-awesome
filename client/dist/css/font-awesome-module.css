@@ -1,0 +1,17 @@
+/*.iconpicker-container:hover .iconpicker-popover.popover {
+    display: block !important;
+}*/
+
+/*
+
+.iconpicker-item.iconpicker-selected {
+    color: #fff;
+}*/
+
+.iconpicker-input {
+    display: none !important;
+}
+
+.iconpicker-popover.popover {
+    width: 100%;
+}
