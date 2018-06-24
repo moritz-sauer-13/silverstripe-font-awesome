@@ -1,8 +1,9 @@
 {
-    "name": "a2nt/silverstripe-font-awesome",
+    "name": "a2nt/silverstripe-font-awesome-field",
     "description": "A simple form field for selecting font-awesome classes in the CMS.",
     "keywords": [
         "font-awesome",
+        "fontawesome",
         "silverstripe"
     ],
     "license": "BSD-3-Clause",
@@ -20,6 +21,9 @@
     },
     "minimum-stability": "dev",
     "extra": {
-        "installer-name": "silverstripe-font-awesome"
+        "installer-name": "font-awesome-field",
+        "expose": [
+            "client/dist"
+        ]
     }
 }
