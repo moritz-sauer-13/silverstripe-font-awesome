@@ -1,5 +1,5 @@
 {
-    "name": "nickjacobs/silverstripe-font-awesome-field",
+    "name": "nickjacobs/silverstripe-font-awesome",
     "description": "A simple form field for selecting font-awesome classes in the CMS.",
     "keywords": [
         "font-awesome",
