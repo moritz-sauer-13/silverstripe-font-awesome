@@ -15,7 +15,7 @@ SilverStripe 4+
 ### Composer
 
 Ideally composer will be used to install this module. 
-```composer require "nickjacobs/silverstripe-font-awesome-field"```
+```composer require "nickjacobs/silverstripe-font-awesome-field:dev-master"```
 
 ## Screen shots
 
