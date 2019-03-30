@@ -13,7 +13,7 @@ SilverStripe 4+
 ### Composer
 
 Ideally composer will be used to install this module. 
-```composer require "a2nt/silverstripe-font-awesome:@dev-master"```
+```composer require "nickjacobs/silverstripe-font-awesome:@dev-master"```
 
 ## Screen shots
 
