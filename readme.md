@@ -1,3 +1,5 @@
+## forked from a2nt/silverstripe-font-awesome
+
 ## Synopsis
 Provides a field to easily pick font-awesome icons
 
