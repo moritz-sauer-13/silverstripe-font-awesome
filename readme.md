@@ -1,4 +1,4 @@
-## forked from a2nt/silverstripe-font-awesome
+## forked from nickjacobs/silverstripe-font-awesome
 
 ## Synopsis
 Provides a field to easily pick font-awesome icons
@@ -8,7 +8,7 @@ Provides a field to easily pick font-awesome icons
 * Can filter on icon name
 
 ## Requirements
-SilverStripe 4+
+SilverStripe 5+
 
 ## Installation
 
