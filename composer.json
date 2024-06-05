@@ -1,5 +1,5 @@
 {
-    "name": "nickjacobs/silverstripe-font-awesome-field",
+    "name": "moritz-sauer-13/silverstripe-font-awesome-field",
     "description": "A simple form field for selecting font-awesome classes in the CMS.",
     "keywords": [
         "font-awesome",
@@ -13,11 +13,14 @@
     }, {
         "name": "Tony Air",
         "email": "tony@twma.pro"
+    }, {
+        "name": "Moritz Sauer",
+        "email": "ms@tietge.com"
     }],
     "type": "silverstripe-vendormodule",
     "require": {
-        "silverstripe/framework": ">=4",
-        "silverstripe/cms": ">=4"
+        "silverstripe/framework": ">=5",
+        "silverstripe/cms": ">=5"
     },    
     "extra": {
         "installer-name": "font-awesome-field",
