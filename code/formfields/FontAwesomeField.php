@@ -4,6 +4,7 @@ namespace SilverStripe\FontAwesome;
 
 use SilverStripe\Forms\TextField;
 use SilverStripe\View\Requirements;
+use SilverStripe\Core\Validation\ValidationResult;
 
 /**
  * Class FontAwesomeField
@@ -44,23 +45,20 @@ class FontAwesomeField extends TextField
     }
 
     /**
-     * @param $validator
-     *
-     * @return bool
+     * Determines whether the field is valid or not based on its value
      */
-    public function validate($validator)
+    public function validate(): ValidationResult
     {
-        if (!empty($this->value) && !preg_match('/^fa[a-z] fa-[a-z0-9]+/', $this->value)) {
-            $validator->validationError(
-                $this->name,
+        $result = ValidationResult::create();
+        if (!empty($this->value) && !preg_match('/^fa[a-z] fa-[a-z0-9]+/', (string) $this->value)) {
+            // Mark as invalid and attach an error to this specific field
+            $result->addFieldError(
+                (string) $this->name,
                 'Please enter a valid Font Awesome font name format.',
-                'validation',
-                false
+                ValidationResult::TYPE_ERROR,
+                'validation'
             );
-
-            return false;
         }
-
-        return true;
+        return $result;
     }
 }
